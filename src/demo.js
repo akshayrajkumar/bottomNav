@@ -29,27 +29,27 @@ export default function LabelBottomNavigation() {
       className={classes.root}
     >
       <BottomNavigationAction
-        label=""
+        label="Home"
         value="Recents"
         icon={<HomeOutlinedIcon />}
       />
       <BottomNavigationAction
-        label=""
+        label="Explore"
         value="Explore"
         icon={<ExploreOutlinedIcon />}
       />
       <BottomNavigationAction
-        label=""
+        label="New Post"
         value="Post"
         icon={<AddCircleOutlineOutlinedIcon />}
       />
       <BottomNavigationAction
-        label=""
+        label="Notification"
         value="Notification"
         icon={<NotificationsNoneOutlinedIcon />}
       />
       <BottomNavigationAction
-        label=""
+        label="Profile"
         value="Profile"
         icon={<PersonOutlinedIcon />}
       />
