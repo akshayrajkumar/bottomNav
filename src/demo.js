@@ -5,7 +5,8 @@ import BottomNavigationAction from "@material-ui/core/BottomNavigationAction";
 import HomeOutlinedIcon from "@material-ui/icons/HomeOutlined";
 import NotificationsNoneOutlinedIcon from "@material-ui/icons/NotificationsNoneOutlined";
 import AddCircleOutlineOutlinedIcon from "@material-ui/icons/AddCircleOutlineOutlined";
-import DashboardOutlinedIcon from "@material-ui/icons/DashboardOutlined";
+//import DashboardOutlinedIcon from "@material-ui/icons/DashboardOutlined";
+import PersonOutlinedIcon from "@material-ui/icons/PersonOutlined";
 import ExploreOutlinedIcon from "@material-ui/icons/ExploreOutlined";
 const useStyles = makeStyles({
   root: {
@@ -50,7 +51,7 @@ export default function LabelBottomNavigation() {
       <BottomNavigationAction
         label=""
         value="Profile"
-        icon={<DashboardOutlinedIcon />}
+        icon={<PersonOutlinedIcon />}
       />
     </BottomNavigation>
   );
